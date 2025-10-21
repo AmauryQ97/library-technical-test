@@ -27,6 +27,8 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
 .vscode
 *.suo
@@ -52,9 +54,6 @@ yarn.lock
 # Build outputs
 apps/*/dist
 apps/*/build
-
-# IDE specific files
-*.vscode*
 
 # Temp files
 *.tmp
