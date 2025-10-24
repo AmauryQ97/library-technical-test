@@ -50,4 +50,4 @@ sudo -u postgres psql -d $DB_NAME -c "
     ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON TYPES TO $DB_USER;
 " || echo "Failed to set up schema privileges"
 
-echo "\nYou can now start the application with: mvn spring-boot:run"
+echo "\nYou can now start the application with: pnpm dev"

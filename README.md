@@ -22,3 +22,14 @@
      chmod +x setup-db.sh
      ./setup-db.sh
      ```
+
+## To improve
+
+[] more tests  
+[] check book isn't already existing
+[] roles like admin, editor, reader..
+[] improve some error messages
+[] use sse (server sent event) to inform front when a resource has been updated/or all
+[] implement all features in front
+[] implement author and loan in back and front
+[] logs
